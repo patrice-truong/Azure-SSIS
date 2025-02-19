@@ -36,7 +36,7 @@ Create a new Azure Data Factory instance in your Azure subscription
 
 We will be accepting all the default options. Click on "Review+Create"
 
-![adf-defaults](assets/adf-defaults.png)
+![adf-defaults](assets/adf-defaults-0.png)
 
 **Azure blob storage**
 
@@ -213,22 +213,22 @@ Verify that your SSIS project (LoadAdventureWorks) is properly deployed on the t
 
 - Create an ADF pipeline
 
-![adf-pipeline-1](assets/adf-pipeline-1.png)
+![adf-pipeline-1](assets/adf-pipeline-01.png)
 
-![adf-pipeline-2](assets/adf-pipeline-2.png)
+![adf-pipeline-2](assets/adf-pipeline-02.png)
 
 - Publish your pipeline
 - Execute your pipeline 
 
-![adf-pipeline-trigger](assets/adf-pipeline-trigger.png)
+![adf-pipeline-trigger](assets/adf-pipeline-trigger-0.png)
 
 - Click on Monitor to monitor execution progress
 
-![adf-pipeline-in-progress](assets/adf-pipeline-in-progress.png)
+![adf-pipeline-in-progress](assets/adf-pipeline-in-progress-0.png)
 
 - After a few seconds, the pipeline executes completes
 
-![adf-pipeline-success](assets/adf-pipeline-success.png)
+![adf-pipeline-success](assets/adf-pipeline-success-0.png)
 
 - The query in the Azure SQL database returns all the products !
 
