@@ -59,13 +59,14 @@ In Azure Data Factory Studio, create a Self-Hosted Integration runtime
 ![azure-self-hosted-3](assets/azure-self-hosted-3.png)
 
 ![azure-self-hosted-4](assets/azure-self-hosted-4.png)
+
 Copy Key1 to your clipboard
 
 **Install software pre-requisites in virtual machine**
 
 1. Log into your virtual machine using Remote access
 2. Install Visual Studio 2022 Community from https://learn.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2022
-4. Install the Microsoft Integration Runtime from https://www.microsoft.com/en-us/download/details.aspx?id=39717. Start the IR at the end of the installation proces
+4. Install the Microsoft Integration Runtime from https://www.microsoft.com/en-us/download/details.aspx?id=39717. Start the IR at the end of the installation process
 5. Paste the key from your ADF Integration runtime and click Register
 
 ![ir-register](assets/ir-register.png)
@@ -121,7 +122,8 @@ Publish All if necessary
 **Create an Azure-SSIS IR**
 
 If you have an SSISDB database already present in your target Azure SQL 
-In ADF Studio, create an Azure-SSIS Integration runtime as a proxy (this will create the SSISDB database)
+In ADF Studio, delete it.
+Creating an Azure-SSIS Integration runtime as a proxy will create the SSISDB database for you.
 
 
 ![azure-ssis-1](assets/azure-ssis-1.png)
