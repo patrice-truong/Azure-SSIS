@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.15">
+  <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
+    <mxGraphModel dx="1219" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="310" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WSpUZKbVoAHyNpnMHEtO-7" target="WSpUZKbVoAHyNpnMHEtO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-7" value="&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;Source SQL Server&lt;/span&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-8" value="On-premises (or virtual) environment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-9" value="Self hosted integration runtime" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="254" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-12" value="Azure SQL&amp;nbsp;&lt;div&gt;SSISDB Database&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Managed_Instance.svg;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="100" width="65" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-13" value="Azure" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="130" width="310" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-14" value="Azure-SSIS&amp;nbsp;&lt;div&gt;Integration runtime&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="850" y="30" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.045;entryY=0.377;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="WSpUZKbVoAHyNpnMHEtO-9" target="WSpUZKbVoAHyNpnMHEtO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WSpUZKbVoAHyNpnMHEtO-18" target="WSpUZKbVoAHyNpnMHEtO-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-18" value="Azure Data Factory" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="770" y="32" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.603;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WSpUZKbVoAHyNpnMHEtO-14" target="WSpUZKbVoAHyNpnMHEtO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WSpUZKbVoAHyNpnMHEtO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.929;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WSpUZKbVoAHyNpnMHEtO-12" target="WSpUZKbVoAHyNpnMHEtO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
